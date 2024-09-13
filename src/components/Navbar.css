@@ -1,0 +1,20 @@
+/* Navbar.css */
+
+
+
+.Navbar {
+    background-color: azure;
+    color:rgb(196, 37, 37);
+     /* Change background color */
+  }
+  
+  .Navbar-link {
+    color:black; /* Change link color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 20px; /* Add space between links */
+  }
+  
+  .Navbar-link:hover {
+    text-decoration:dashed; /* Add underline on hover */
+  }
+  

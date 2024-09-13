@@ -1,0 +1,72 @@
+/* src/ContactUs.css */
+
+.container {
+  max-width: 400px; /* Set a maximum width for the form container */
+  margin: 80px auto; /* Center the form on the page */
+  padding: 20px; /* Add some padding inside the container */
+  border: 1px solid #ddd; /* Add a light border */
+  border-radius: 8px; /* Round the corners */
+  background-color: #b7dbf1; /* Light background color */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+form {
+  display: flex; /* Flex layout for form fields */
+  flex-direction: column; /* Arrange fields in a column */
+  gap: 10px; /* Space between form fields */
+}
+
+input,
+textarea {
+  padding: 10px; /* Add padding inside inputs and textarea */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Slight rounding of input edges */
+  font-size: 16px; /* Consistent font size */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #67a8ec; /* Highlight inputs on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+button {
+  padding: 10px; /* Add padding inside the button */
+  background-color: #030b14; /* Blue background for the button */
+  color: #fff; /* White text color */
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Round the button edges */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-size: 16px; /* Font size for the button text */
+}
+
+button:hover {
+  background-color: #304760; /* Darker blue on hover */
+}
+
+span {
+  display: block; /* Display as block for margin purposes */
+  margin-top: 10px; /* Space above the result message */
+  text-align: center; /* Center the result text */
+  color: green; /* Default color for success */
+}
+
+span.error {
+  color: red; /* Red color for error messages */
+}
+.social-icon{
+
+  width: 40px;
+  height: 40px;
+  gap: 5px;
+  padding-right: 10px ;
+  padding-left: 10px;
+  padding: 10px 10px;
+}
+.social-media{
+  padding: 10px, 100px, 100px, 50px;
+}

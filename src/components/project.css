@@ -1,0 +1,105 @@
+/* project.css */
+
+/* General body styling */
+body {
+    /* background-image: url("../img/b.jpg"); */
+    background-color: black;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; 
+    margin:0px;
+    padding: 50;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 8;
+    border-color: hsl(0, 0%, 4%);
+  }
+  
+  .project-card {
+    max-width: 389px;
+    height: 550px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow:blueviolet;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(11, 12, 12, 0.5);
+  }
+  
+  .project-card .MuiCardMedia-root {
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  .project-card .MuiCardMedia-root:hover {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+  }
+  
+  /* Fullscreen overlay for images */
+  .image-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .image-overlay.show {
+    display: flex; /* Show overlay when active */
+  }
+  
+  .image-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .image-overlay .close-button {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color:rgb(85, 218, 223); /* Primary blue color */
+    color:black; /* Text color */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Padding for the button */
+    font-size: 14px; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 10px; /* Smooth transitions */
+  }
+  
+  /* Hover effect */
+  .button1:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+  }
+  
+  /* Focus effect */
+  .button1:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Add a custom focus outline */
+  }
+ 
+  

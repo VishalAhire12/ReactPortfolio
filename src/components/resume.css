@@ -1,0 +1,74 @@
+/* resume.css */
+
+.resume-container {
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  .resume-container{
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  
+  .resume-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume-section {
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .resume-divider {
+    margin: 200px 0;
+  }
+  .resume-section{
+    background-color: rgb(183, 116, 27);
+  }
+  .resume-header{
+    background-color:antiquewhite;
+  }
+  .cardMedia{
+    background-color:#b43535;
+
+  }
+  .resume-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #5bace7;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .resume-section:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .section-title {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .section-title:hover {
+    color: #007bff; /* Highlight color on hover */
+  }
+  
+  .section-content {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Active section styling */
+  .resume-section.active {
+    background-color: #e6f7ff; /* Slightly different background for active sections */
+    border-color: #090909; /* Highlight border for active section */
+  }
+  .resumename{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
